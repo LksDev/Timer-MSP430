@@ -214,7 +214,7 @@ D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.5\430\inc\dlib\c
 -D__MULTIPLIER_16__=1
 -D__MULTIPLIER_32__=3
 -D__MULTIPLIER_NONE__=0
--D__MULTIPLIER__=__MULTIPLIER_16__
+-D__MULTIPLIER__=__MULTIPLIER_NONE__
 -D__REGISTER_FREE__=0
 -D__REGISTER_LOCKED__=1
 -D__REGISTER_MODEL_REG16__=0
@@ -253,7 +253,7 @@ D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.5\430\inc\dlib\c
 -D__EDG_SYSV=0
 -D__EDG_ANSIC=1
 -D__EDG_CPP11_IL_EXTENSIONS_SUPPORTED=1
--D__MSP430GENERIC__=1
+-D__MSP430G2553__=1
 -D_DLIB_CONFIG_FILE_HEADER_NAME="D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.5\430\lib\dlib\dl430fn.h"
 -D_DLIB_CONFIG_FILE_STRING="D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\lib\\dlib\\dl430fn.h"
 -D__VERSION__="IAR C/C++ Compiler V7.21.1.1000/W32 for MSP430"

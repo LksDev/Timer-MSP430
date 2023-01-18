@@ -11774,13 +11774,27 @@
     "scope": null
   },
   {
+    "ID": "c:@F@TimerA_ISR",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TimerA_ISR(void)",
+    "location": {
+      "column": "18",
+      "line": "39",
+      "path": "H:\\Public\\Felix-Fechenbach-Berufskolleg\\FSE4A\\RDN\\C\\Timer-MSP430\\DcoSmclkTest\\DcoSmclkTest.c"
+    },
+    "name": "TimerA_ISR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "44",
+      "line": "45",
       "path": "H:\\Public\\Felix-Fechenbach-Berufskolleg\\FSE4A\\RDN\\C\\Timer-MSP430\\DcoSmclkTest\\DcoSmclkTest.c"
     },
     "name": "main",
@@ -11788,16 +11802,30 @@
     "scope": null
   },
   {
-    "ID": "c:@F@P2_ISR",
+    "ID": "c:@F@TimerA_ISR",
     "What": "Function",
     "defdec": "Def",
-    "display": "void P2_ISR(void)",
+    "display": "void TimerA_ISR(void)",
     "location": {
       "column": "18",
-      "line": "69",
+      "line": "93",
       "path": "H:\\Public\\Felix-Fechenbach-Berufskolleg\\FSE4A\\RDN\\C\\Timer-MSP430\\DcoSmclkTest\\DcoSmclkTest.c"
     },
-    "name": "P2_ISR",
+    "name": "TimerA_ISR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:DcoSmclkTest.c@4335@F@TimerA_ISR@n",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "n",
+    "location": {
+      "column": "19",
+      "line": "95",
+      "path": "H:\\Public\\Felix-Fechenbach-Berufskolleg\\FSE4A\\RDN\\C\\Timer-MSP430\\DcoSmclkTest\\DcoSmclkTest.c"
+    },
+    "name": "n",
     "origin": "project_file",
     "scope": null
   },
@@ -11808,7 +11836,7 @@
     "display": "void DebounceDelay(unsigned int)",
     "location": {
       "column": "6",
-      "line": "77",
+      "line": "103",
       "path": "H:\\Public\\Felix-Fechenbach-Berufskolleg\\FSE4A\\RDN\\C\\Timer-MSP430\\DcoSmclkTest\\DcoSmclkTest.c"
     },
     "name": "DebounceDelay",

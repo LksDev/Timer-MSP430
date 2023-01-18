@@ -36,6 +36,7 @@
 //           Funktionsdeklarationen/-prototypen -> besser auslagern z.B. LCD.h
 //------------------------------------------------------------------------------
 void DebounceDelay(unsigned int i);
+__interrupt void TimerA_ISR(void);
 
 //------------------------------------------------------------------------------
 //           Hauptprogramm
@@ -47,28 +48,52 @@ void main( void )
 //           Initialisierungsteil von Prozessor und Peripherie
 //------------------------------------------------------------------------------ 
   WDTCTL = WDTPW | WDTHOLD; // Stop watchdog-timer
-  P1DIR &= ~0x14;       
-  P2DIR = 0xFF;             // Set Pin P1.0 to output
-  P2OUT = 0x00;             // Alles ausschalten
-  P2OUT = 0x21;             // LED an P1.0 einschalten
+  
+  // Basis Clock auf 1MHz einstellen
+  BCSCTL1 = CALBC1_1MHZ;
+  DCOCTL = CALDCO_1MHZ;
+  
+  P1DIR |= BIT0 + BIT4;         // Set Pin 1.0 + 1.4 als Ausgang
+  P1OUT = 0x00;                 // Ausgang ausschalten
+  
+  P1SEL |= BIT4;                // Sonderfunktion SMCLK an P1.4 aktivieren
+  BCSCTL2 &= ~ BIT1 + BIT2;     // Teiler des SMCLK einstellen
+  BCSCTL2 |= BIT1 + BIT2;
+  
+  // slau144j-Family-Users-Guide MSP430x2xx.pdf Seite 370
+  // Timer_A Control Register
+  // Bit9-8 01 binär SMCLK
+  // Bit7-6 11 /8 Teiler
+  // Bit5-4 10 Continous Mode
+  // Bit1 0 Disable Interrupt
+  // Bit0 x Timer Interrupt Status
+  TA0CTL = 0x02E0;
+  // Zählerstand des Timers A
+  TAR = 0;
+  // Interrupt aktivieren + Timer A
+  TA0CTL |= TAIE;
+  _BIS_SR(GIE); // Enter interrupt
+  
 //------------------------------------------------------------------------------
 //           Endlosschleife, dass kleinste Betriebssystem der Welt!
 //------------------------------------------------------------------------------
   for (;;)
   {
-    DebounceDelay(DELAY);
-    P2OUT ^= BIT1;                 // Wiederhole immer
-    P2OUT ^= BIT5;                 // Wiederhole immer
+    //DebounceDelay(DELAY);
+    //P1OUT ^= BIT0;                 // Wiederhole immer
   }
 }
             
 //------------------------------------------------------------------------------
 //        Interrupt-Service-Routinen/ -Handler z.B. 
 //------------------------------------------------------------------------------
-#pragma PORT2_VECTOR
-__interrupt void P2_ISR(void)
+
+#pragma TIMER0_A0_VECTOR
+__interrupt void TimerA_ISR(void)
 {
-  
+    unsigned char n = 0;
+    n++;
+    P1OUT ^= BIT0;                 // Wiederhole immer  
 }
 
 //------------------------------------------------------------------------------

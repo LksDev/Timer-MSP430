@@ -1,20 +1,60 @@
-"--hardware_multiplier" 
+"-p" 
 
-"16" 
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.5\430\config\debugger\msp430g2553.ddf" 
 
-"--hwmult_type" 
+"--iv_base" 
 
-"1" 
-
-"--odd_word_check" 
+"0xFFE0" 
 
 "-d" 
 
-"sim" 
+"fet" 
 
-"--derivativeSim" 
+"--erase_main" 
 
-"Generic MSP430 device" 
+"--derivative" 
+
+"MSP430G2xx3" 
+
+"--protocol" 
+
+"automatic" 
+
+"--eem" 
+
+"EMEX_LOW" 
+
+"--port" 
+
+"Automatic" 
+
+"--connection" 
+
+"ti_usb" 
+
+"--use_emulated_breakpoints" 
+
+"--settlingtime=0" 
+
+"--msp430_dll" 
+
+"msp430.dll" 
+
+"--vccDefault" 
+
+"3.3" 
+
+"--jtag_speed" 
+
+"medium" 
+
+"--memtype" 
+
+"F" 
+
+"--cycleCounter" 
+
+"0" 
 
 
 
