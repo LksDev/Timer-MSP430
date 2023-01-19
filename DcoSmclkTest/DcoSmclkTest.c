@@ -57,8 +57,8 @@ void main( void )
   P1OUT = 0x00;                 // Ausgang ausschalten
   
   P1SEL |= BIT4;                // Sonderfunktion SMCLK an P1.4 aktivieren
-  BCSCTL2 &= ~ BIT1 + BIT2;     // Teiler des SMCLK einstellen
-  BCSCTL2 |= BIT1 + BIT2;
+  BCSCTL2 &= ~ BIT1 + BIT2;     // Teiler des SMCLK einstellen -> /1
+  // BCSCTL2 |= BIT1 + BIT2;
   
   // slau144j-Family-Users-Guide MSP430x2xx.pdf Seite 370
   // Timer_A Control Register
@@ -66,21 +66,20 @@ void main( void )
   // Bit7-6 11 /8 Teiler
   // Bit5-4 10 Continous Mode
   // Bit1 0 Disable Interrupt
-  // Bit0 x Timer Interrupt Status
-  TA0CTL = 0x02E0;
-  // Zählerstand des Timers A
-  TAR = 0;
-  // Interrupt aktivieren + Timer A
-  TA0CTL |= TAIE;
-  _BIS_SR(GIE); // Enter interrupt
+  // Bit0 x Timer Interrupt Status  
+  TA0CTL = 0x02E0;  
+  // Interrupt Timer A aktivieren
+  TA0CCTL0 = CCIE;
+  
+  // Interrupt aktivieren
+  __enable_interrupt();
   
 //------------------------------------------------------------------------------
 //           Endlosschleife, dass kleinste Betriebssystem der Welt!
 //------------------------------------------------------------------------------
   for (;;)
   {
-    //DebounceDelay(DELAY);
-    //P1OUT ^= BIT0;                 // Wiederhole immer
+    
   }
 }
             
@@ -88,11 +87,9 @@ void main( void )
 //        Interrupt-Service-Routinen/ -Handler z.B. 
 //------------------------------------------------------------------------------
 
-#pragma TIMER0_A0_VECTOR
-__interrupt void TimerA_ISR(void)
+#pragma vector=TIMER0_A0_VECTOR
+__interrupt void TIMER0_A0_ISR() 
 {
-    unsigned char n = 0;
-    n++;
     P1OUT ^= BIT0;                 // Wiederhole immer  
 }
 
