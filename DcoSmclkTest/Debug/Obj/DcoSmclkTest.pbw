@@ -911,4 +911,2709 @@
   },
   {
     "ID": "c:msp430G2553.h@5651@macro@UCB0RXIE",
-    "What": "MacroDef"
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UCB0RXIE",
+    "location": {
+      "column": "9",
+      "line": "152",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "UCB0RXIE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@5687@macro@UCB0TXIE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UCB0TXIE",
+    "location": {
+      "column": "9",
+      "line": "153",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "UCB0TXIE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@5725@macro@IFG2_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IFG2_",
+    "location": {
+      "column": "9",
+      "line": "155",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "IFG2_",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@IFG2",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "IFG2",
+    "location": {
+      "column": "1",
+      "line": "156",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "IFG2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@5824@macro@UC0IFG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UC0IFG",
+    "location": {
+      "column": "9",
+      "line": "157",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "UC0IFG",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@5858@macro@UCA0RXIFG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UCA0RXIFG",
+    "location": {
+      "column": "9",
+      "line": "158",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "UCA0RXIFG",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@5894@macro@UCA0TXIFG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UCA0TXIFG",
+    "location": {
+      "column": "9",
+      "line": "159",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "UCA0TXIFG",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@5930@macro@UCB0RXIFG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UCB0RXIFG",
+    "location": {
+      "column": "9",
+      "line": "160",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "UCB0RXIFG",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@5966@macro@UCB0TXIFG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UCB0TXIFG",
+    "location": {
+      "column": "9",
+      "line": "161",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "UCB0TXIFG",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@6139@macro@__MSP430_HAS_ADC10__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__MSP430_HAS_ADC10__",
+    "location": {
+      "column": "9",
+      "line": "166",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "__MSP430_HAS_ADC10__",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@6232@macro@ADC10DTC0_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10DTC0_",
+    "location": {
+      "column": "9",
+      "line": "168",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10DTC0_",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ADC10DTC0",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "ADC10DTC0",
+    "location": {
+      "column": "1",
+      "line": "169",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10DTC0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@6351@macro@ADC10DTC1_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10DTC1_",
+    "location": {
+      "column": "9",
+      "line": "170",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10DTC1_",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ADC10DTC1",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "ADC10DTC1",
+    "location": {
+      "column": "1",
+      "line": "171",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10DTC1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@6470@macro@ADC10AE0_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10AE0_",
+    "location": {
+      "column": "9",
+      "line": "172",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10AE0_",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ADC10AE0",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "ADC10AE0",
+    "location": {
+      "column": "1",
+      "line": "173",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10AE0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@6582@macro@ADC10CTL0_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10CTL0_",
+    "location": {
+      "column": "9",
+      "line": "175",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10CTL0_",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ADC10CTL0",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "ADC10CTL0",
+    "location": {
+      "column": "1",
+      "line": "176",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10CTL0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@6687@macro@ADC10CTL1_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10CTL1_",
+    "location": {
+      "column": "9",
+      "line": "177",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10CTL1_",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ADC10CTL1",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "ADC10CTL1",
+    "location": {
+      "column": "1",
+      "line": "178",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10CTL1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@6792@macro@ADC10MEM_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10MEM_",
+    "location": {
+      "column": "9",
+      "line": "179",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10MEM_",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ADC10MEM",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "ADC10MEM",
+    "location": {
+      "column": "1",
+      "line": "180",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10MEM",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@6893@macro@ADC10SA_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10SA_",
+    "location": {
+      "column": "9",
+      "line": "181",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10SA_",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ADC10SA",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "ADC10SA",
+    "location": {
+      "column": "1",
+      "line": "182",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10SA",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@7033@macro@ADC10SC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10SC",
+    "location": {
+      "column": "9",
+      "line": "185",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10SC",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@7103@macro@ENC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ENC",
+    "location": {
+      "column": "9",
+      "line": "186",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ENC",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@7174@macro@ADC10IFG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10IFG",
+    "location": {
+      "column": "9",
+      "line": "187",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10IFG",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@7242@macro@ADC10IE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10IE",
+    "location": {
+      "column": "9",
+      "line": "188",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10IE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@7312@macro@ADC10ON",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10ON",
+    "location": {
+      "column": "9",
+      "line": "189",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10ON",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@7375@macro@REFON",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "REFON",
+    "location": {
+      "column": "9",
+      "line": "190",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "REFON",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@7441@macro@REF2_5V",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "REF2_5V",
+    "location": {
+      "column": "9",
+      "line": "191",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "REF2_5V",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@7514@macro@MSC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MSC",
+    "location": {
+      "column": "9",
+      "line": "192",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "MSC",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@7593@macro@REFBURST",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "REFBURST",
+    "location": {
+      "column": "9",
+      "line": "193",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "REFBURST",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@7667@macro@REFOUT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "REFOUT",
+    "location": {
+      "column": "9",
+      "line": "194",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "REFOUT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@7742@macro@ADC10SR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10SR",
+    "location": {
+      "column": "9",
+      "line": "195",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10SR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@7830@macro@ADC10SHT0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10SHT0",
+    "location": {
+      "column": "9",
+      "line": "196",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10SHT0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@7909@macro@ADC10SHT1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10SHT1",
+    "location": {
+      "column": "9",
+      "line": "197",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10SHT1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@7989@macro@SREF0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SREF0",
+    "location": {
+      "column": "9",
+      "line": "198",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SREF0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@8067@macro@SREF1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SREF1",
+    "location": {
+      "column": "9",
+      "line": "199",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SREF1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@8145@macro@SREF2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SREF2",
+    "location": {
+      "column": "9",
+      "line": "200",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SREF2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@8223@macro@ADC10SHT_0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10SHT_0",
+    "location": {
+      "column": "9",
+      "line": "201",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10SHT_0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@8285@macro@ADC10SHT_1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10SHT_1",
+    "location": {
+      "column": "9",
+      "line": "202",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10SHT_1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@8347@macro@ADC10SHT_2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10SHT_2",
+    "location": {
+      "column": "9",
+      "line": "203",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10SHT_2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@8410@macro@ADC10SHT_3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10SHT_3",
+    "location": {
+      "column": "9",
+      "line": "204",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10SHT_3",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@8475@macro@SREF_0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SREF_0",
+    "location": {
+      "column": "9",
+      "line": "206",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SREF_0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@8549@macro@SREF_1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SREF_1",
+    "location": {
+      "column": "9",
+      "line": "207",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SREF_1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@8624@macro@SREF_2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SREF_2",
+    "location": {
+      "column": "9",
+      "line": "208",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SREF_2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@8700@macro@SREF_3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SREF_3",
+    "location": {
+      "column": "9",
+      "line": "209",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SREF_3",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@8776@macro@SREF_4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SREF_4",
+    "location": {
+      "column": "9",
+      "line": "210",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SREF_4",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@8858@macro@SREF_5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SREF_5",
+    "location": {
+      "column": "9",
+      "line": "211",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SREF_5",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@8941@macro@SREF_6",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SREF_6",
+    "location": {
+      "column": "9",
+      "line": "212",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SREF_6",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@9025@macro@SREF_7",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SREF_7",
+    "location": {
+      "column": "9",
+      "line": "213",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SREF_7",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@9128@macro@ADC10BUSY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10BUSY",
+    "location": {
+      "column": "9",
+      "line": "216",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10BUSY",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@9187@macro@CONSEQ0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CONSEQ0",
+    "location": {
+      "column": "9",
+      "line": "217",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "CONSEQ0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@9270@macro@CONSEQ1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CONSEQ1",
+    "location": {
+      "column": "9",
+      "line": "218",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "CONSEQ1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@9353@macro@ADC10SSEL0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10SSEL0",
+    "location": {
+      "column": "9",
+      "line": "219",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10SSEL0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@9434@macro@ADC10SSEL1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10SSEL1",
+    "location": {
+      "column": "9",
+      "line": "220",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10SSEL1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@9515@macro@ADC10DIV0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10DIV0",
+    "location": {
+      "column": "9",
+      "line": "221",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10DIV0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@9597@macro@ADC10DIV1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10DIV1",
+    "location": {
+      "column": "9",
+      "line": "222",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10DIV1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@9679@macro@ADC10DIV2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10DIV2",
+    "location": {
+      "column": "9",
+      "line": "223",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10DIV2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@9761@macro@ISSH",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ISSH",
+    "location": {
+      "column": "9",
+      "line": "224",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ISSH",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@9841@macro@ADC10DF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10DF",
+    "location": {
+      "column": "9",
+      "line": "225",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10DF",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@9933@macro@SHS0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SHS0",
+    "location": {
+      "column": "9",
+      "line": "226",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SHS0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@10013@macro@SHS1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SHS1",
+    "location": {
+      "column": "9",
+      "line": "227",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SHS1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@10093@macro@INCH0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INCH0",
+    "location": {
+      "column": "9",
+      "line": "228",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "INCH0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@10175@macro@INCH1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INCH1",
+    "location": {
+      "column": "9",
+      "line": "229",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "INCH1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@10257@macro@INCH2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INCH2",
+    "location": {
+      "column": "9",
+      "line": "230",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "INCH2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@10339@macro@INCH3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INCH3",
+    "location": {
+      "column": "9",
+      "line": "231",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "INCH3",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@10423@macro@CONSEQ_0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CONSEQ_0",
+    "location": {
+      "column": "9",
+      "line": "233",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "CONSEQ_0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@10504@macro@CONSEQ_1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CONSEQ_1",
+    "location": {
+      "column": "9",
+      "line": "234",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "CONSEQ_1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@10573@macro@CONSEQ_2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CONSEQ_2",
+    "location": {
+      "column": "9",
+      "line": "235",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "CONSEQ_2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@10643@macro@CONSEQ_3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CONSEQ_3",
+    "location": {
+      "column": "9",
+      "line": "236",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "CONSEQ_3",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@10721@macro@ADC10SSEL_0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10SSEL_0",
+    "location": {
+      "column": "9",
+      "line": "238",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10SSEL_0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@10778@macro@ADC10SSEL_1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10SSEL_1",
+    "location": {
+      "column": "9",
+      "line": "239",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10SSEL_1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@10831@macro@ADC10SSEL_2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10SSEL_2",
+    "location": {
+      "column": "9",
+      "line": "240",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10SSEL_2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@10884@macro@ADC10SSEL_3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10SSEL_3",
+    "location": {
+      "column": "9",
+      "line": "241",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10SSEL_3",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@10940@macro@ADC10DIV_0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10DIV_0",
+    "location": {
+      "column": "9",
+      "line": "243",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10DIV_0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@11017@macro@ADC10DIV_1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10DIV_1",
+    "location": {
+      "column": "9",
+      "line": "244",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10DIV_1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@11094@macro@ADC10DIV_2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10DIV_2",
+    "location": {
+      "column": "9",
+      "line": "245",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10DIV_2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@11171@macro@ADC10DIV_3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10DIV_3",
+    "location": {
+      "column": "9",
+      "line": "246",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10DIV_3",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@11248@macro@ADC10DIV_4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10DIV_4",
+    "location": {
+      "column": "9",
+      "line": "247",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10DIV_4",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@11325@macro@ADC10DIV_5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10DIV_5",
+    "location": {
+      "column": "9",
+      "line": "248",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10DIV_5",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@11402@macro@ADC10DIV_6",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10DIV_6",
+    "location": {
+      "column": "9",
+      "line": "249",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10DIV_6",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@11479@macro@ADC10DIV_7",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10DIV_7",
+    "location": {
+      "column": "9",
+      "line": "250",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10DIV_7",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@11558@macro@SHS_0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SHS_0",
+    "location": {
+      "column": "9",
+      "line": "252",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SHS_0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@11614@macro@SHS_1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SHS_1",
+    "location": {
+      "column": "9",
+      "line": "253",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SHS_1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@11671@macro@SHS_2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SHS_2",
+    "location": {
+      "column": "9",
+      "line": "254",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SHS_2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@11728@macro@SHS_3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SHS_3",
+    "location": {
+      "column": "9",
+      "line": "255",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SHS_3",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@11787@macro@INCH_0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INCH_0",
+    "location": {
+      "column": "9",
+      "line": "257",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "INCH_0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@11853@macro@INCH_1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INCH_1",
+    "location": {
+      "column": "9",
+      "line": "258",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "INCH_1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@11919@macro@INCH_2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INCH_2",
+    "location": {
+      "column": "9",
+      "line": "259",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "INCH_2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@11985@macro@INCH_3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INCH_3",
+    "location": {
+      "column": "9",
+      "line": "260",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "INCH_3",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@12051@macro@INCH_4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INCH_4",
+    "location": {
+      "column": "9",
+      "line": "261",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "INCH_4",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@12117@macro@INCH_5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INCH_5",
+    "location": {
+      "column": "9",
+      "line": "262",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "INCH_5",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@12183@macro@INCH_6",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INCH_6",
+    "location": {
+      "column": "9",
+      "line": "263",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "INCH_6",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@12249@macro@INCH_7",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INCH_7",
+    "location": {
+      "column": "9",
+      "line": "264",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "INCH_7",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@12315@macro@INCH_8",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INCH_8",
+    "location": {
+      "column": "9",
+      "line": "265",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "INCH_8",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@12381@macro@INCH_9",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INCH_9",
+    "location": {
+      "column": "9",
+      "line": "266",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "INCH_9",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@12447@macro@INCH_10",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INCH_10",
+    "location": {
+      "column": "9",
+      "line": "267",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "INCH_10",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@12514@macro@INCH_11",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INCH_11",
+    "location": {
+      "column": "9",
+      "line": "268",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "INCH_11",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@12581@macro@INCH_12",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INCH_12",
+    "location": {
+      "column": "9",
+      "line": "269",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "INCH_12",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@12648@macro@INCH_13",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INCH_13",
+    "location": {
+      "column": "9",
+      "line": "270",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "INCH_13",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@12715@macro@INCH_14",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INCH_14",
+    "location": {
+      "column": "9",
+      "line": "271",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "INCH_14",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@12782@macro@INCH_15",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INCH_15",
+    "location": {
+      "column": "9",
+      "line": "272",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "INCH_15",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@12868@macro@ADC10FETCH",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10FETCH",
+    "location": {
+      "column": "9",
+      "line": "275",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10FETCH",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@12949@macro@ADC10B1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10B1",
+    "location": {
+      "column": "9",
+      "line": "276",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10B1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@13012@macro@ADC10CT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10CT",
+    "location": {
+      "column": "9",
+      "line": "277",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10CT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@13085@macro@ADC10TB",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10TB",
+    "location": {
+      "column": "9",
+      "line": "278",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10TB",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@13153@macro@ADC10DISABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC10DISABLE",
+    "location": {
+      "column": "9",
+      "line": "279",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "ADC10DISABLE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@13360@macro@__MSP430_HAS_BC2__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__MSP430_HAS_BC2__",
+    "location": {
+      "column": "9",
+      "line": "284",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "__MSP430_HAS_BC2__",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@13451@macro@DCOCTL_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DCOCTL_",
+    "location": {
+      "column": "9",
+      "line": "286",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DCOCTL_",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@DCOCTL",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "DCOCTL",
+    "location": {
+      "column": "1",
+      "line": "287",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DCOCTL",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@13563@macro@BCSCTL1_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BCSCTL1_",
+    "location": {
+      "column": "9",
+      "line": "288",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "BCSCTL1_",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@BCSCTL1",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "BCSCTL1",
+    "location": {
+      "column": "1",
+      "line": "289",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "BCSCTL1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@13677@macro@BCSCTL2_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BCSCTL2_",
+    "location": {
+      "column": "9",
+      "line": "290",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "BCSCTL2_",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@BCSCTL2",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "BCSCTL2",
+    "location": {
+      "column": "1",
+      "line": "291",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "BCSCTL2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@13791@macro@BCSCTL3_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BCSCTL3_",
+    "location": {
+      "column": "9",
+      "line": "292",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "BCSCTL3_",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@BCSCTL3",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "BCSCTL3",
+    "location": {
+      "column": "1",
+      "line": "293",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "BCSCTL3",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@13907@macro@MOD0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MOD0",
+    "location": {
+      "column": "9",
+      "line": "295",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "MOD0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@13968@macro@MOD1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MOD1",
+    "location": {
+      "column": "9",
+      "line": "296",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "MOD1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@14029@macro@MOD2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MOD2",
+    "location": {
+      "column": "9",
+      "line": "297",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "MOD2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@14090@macro@MOD3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MOD3",
+    "location": {
+      "column": "9",
+      "line": "298",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "MOD3",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@14151@macro@MOD4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MOD4",
+    "location": {
+      "column": "9",
+      "line": "299",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "MOD4",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@14212@macro@DCO0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DCO0",
+    "location": {
+      "column": "9",
+      "line": "300",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DCO0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@14273@macro@DCO1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DCO1",
+    "location": {
+      "column": "9",
+      "line": "301",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DCO1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@14334@macro@DCO2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DCO2",
+    "location": {
+      "column": "9",
+      "line": "302",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DCO2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@14397@macro@RSEL0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RSEL0",
+    "location": {
+      "column": "9",
+      "line": "304",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "RSEL0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@14460@macro@RSEL1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RSEL1",
+    "location": {
+      "column": "9",
+      "line": "305",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "RSEL1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@14523@macro@RSEL2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RSEL2",
+    "location": {
+      "column": "9",
+      "line": "306",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "RSEL2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@14586@macro@RSEL3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RSEL3",
+    "location": {
+      "column": "9",
+      "line": "307",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "RSEL3",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@14649@macro@DIVA0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIVA0",
+    "location": {
+      "column": "9",
+      "line": "308",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DIVA0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@14708@macro@DIVA1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIVA1",
+    "location": {
+      "column": "9",
+      "line": "309",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DIVA1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@14767@macro@XTS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "XTS",
+    "location": {
+      "column": "9",
+      "line": "310",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "XTS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@14847@macro@XT2OFF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "XT2OFF",
+    "location": {
+      "column": "9",
+      "line": "311",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "XT2OFF",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@14907@macro@DIVA_0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIVA_0",
+    "location": {
+      "column": "9",
+      "line": "313",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DIVA_0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@14970@macro@DIVA_1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIVA_1",
+    "location": {
+      "column": "9",
+      "line": "314",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DIVA_1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@15033@macro@DIVA_2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIVA_2",
+    "location": {
+      "column": "9",
+      "line": "315",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DIVA_2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@15096@macro@DIVA_3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIVA_3",
+    "location": {
+      "column": "9",
+      "line": "316",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DIVA_3",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@15161@macro@DIVS0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIVS0",
+    "location": {
+      "column": "9",
+      "line": "318",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DIVS0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@15221@macro@DIVS1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIVS1",
+    "location": {
+      "column": "9",
+      "line": "319",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DIVS1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@15281@macro@SELS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SELS",
+    "location": {
+      "column": "9",
+      "line": "320",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SELS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@15373@macro@DIVM0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIVM0",
+    "location": {
+      "column": "9",
+      "line": "321",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DIVM0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@15432@macro@DIVM1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIVM1",
+    "location": {
+      "column": "9",
+      "line": "322",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DIVM1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@15491@macro@SELM0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SELM0",
+    "location": {
+      "column": "9",
+      "line": "323",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SELM0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@15556@macro@SELM1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SELM1",
+    "location": {
+      "column": "9",
+      "line": "324",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SELM1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@15623@macro@DIVS_0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIVS_0",
+    "location": {
+      "column": "9",
+      "line": "326",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DIVS_0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@15687@macro@DIVS_1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIVS_1",
+    "location": {
+      "column": "9",
+      "line": "327",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DIVS_1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@15751@macro@DIVS_2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIVS_2",
+    "location": {
+      "column": "9",
+      "line": "328",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DIVS_2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@15815@macro@DIVS_3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIVS_3",
+    "location": {
+      "column": "9",
+      "line": "329",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DIVS_3",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@15881@macro@DIVM_0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIVM_0",
+    "location": {
+      "column": "9",
+      "line": "331",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DIVM_0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@15944@macro@DIVM_1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIVM_1",
+    "location": {
+      "column": "9",
+      "line": "332",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DIVM_1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@16007@macro@DIVM_2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIVM_2",
+    "location": {
+      "column": "9",
+      "line": "333",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DIVM_2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@16070@macro@DIVM_3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIVM_3",
+    "location": {
+      "column": "9",
+      "line": "334",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "DIVM_3",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@16135@macro@SELM_0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SELM_0",
+    "location": {
+      "column": "9",
+      "line": "336",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SELM_0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@16208@macro@SELM_1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SELM_1",
+    "location": {
+      "column": "9",
+      "line": "337",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SELM_1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@16281@macro@SELM_2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SELM_2",
+    "location": {
+      "column": "9",
+      "line": "338",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SELM_2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@16362@macro@SELM_3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SELM_3",
+    "location": {
+      "column": "9",
+      "line": "339",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "SELM_3",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@16438@macro@LFXT1OF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LFXT1OF",
+    "location": {
+      "column": "9",
+      "line": "341",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "LFXT1OF",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@16523@macro@XT2OF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "XT2OF",
+    "location": {
+      "column": "9",
+      "line": "342",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "XT2OF",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@16606@macro@XCAP0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "XCAP0",
+    "location": {
+      "column": "9",
+      "line": "343",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "XCAP0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@16665@macro@XCAP1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "XCAP1",
+    "location": {
+      "column": "9",
+      "line": "344",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "XCAP1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@16724@macro@LFXT1S0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LFXT1S0",
+    "location": {
+      "column": "9",
+      "line": "345",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "LFXT1S0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@16795@macro@LFXT1S1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LFXT1S1",
+    "location": {
+      "column": "9",
+      "line": "346",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "LFXT1S1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@16866@macro@XT2S0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "XT2S0",
+    "location": {
+      "column": "9",
+      "line": "347",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "XT2S0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@16925@macro@XT2S1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "XT2S1",
+    "location": {
+      "column": "9",
+      "line": "348",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "XT2S1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@16986@macro@XCAP_0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "XCAP_0",
+    "location": {
+      "column": "9",
+      "line": "350",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "XCAP_0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@17050@macro@XCAP_1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "XCAP_1",
+    "location": {
+      "column": "9",
+      "line": "351",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "XCAP_1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@17114@macro@XCAP_2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "XCAP_2",
+    "location": {
+      "column": "9",
+      "line": "352",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "XCAP_2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@17179@macro@XCAP_3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "XCAP_3",
+    "location": {
+      "column": "9",
+      "line": "353",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "XCAP_3",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@17248@macro@LFXT1S_0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LFXT1S_0",
+    "location": {
+      "column": "9",
+      "line": "355",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "LFXT1S_0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@17328@macro@LFXT1S_1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LFXT1S_1",
+    "location": {
+      "column": "9",
+      "line": "356",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "LFXT1S_1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@17400@macro@LFXT1S_2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LFXT1S_2",
+    "location": {
+      "column": "9",
+      "line": "357",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "LFXT1S_2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@17467@macro@LFXT1S_3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LFXT1S_3",
+    "location": {
+      "column": "9",
+      "line": "358",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "LFXT1S_3",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@17553@macro@XT2S_0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "XT2S_0",
+    "location": {
+      "column": "9",
+      "line": "360",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "XT2S_0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@17626@macro@XT2S_1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "XT2S_1",
+    "location": {
+      "column": "9",
+      "line": "361",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "XT2S_1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@17697@macro@XT2S_2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "XT2S_2",
+    "location": {
+      "column": "9",
+      "line": "362",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "XT2S_2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@17769@macro@XT2S_3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "XT2S_3",
+    "location": {
+      "column": "9",
+      "line": "363",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "XT2S_3",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@17995@macro@__MSP430_HAS_CAPLUS__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__MSP430_HAS_CAPLUS__",
+    "location": {
+      "column": "9",
+      "line": "368",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "__MSP430_HAS_CAPLUS__",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@18086@macro@CACTL1_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CACTL1_",
+    "location": {
+      "column": "9",
+      "line": "370",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "CACTL1_",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@CACTL1",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "CACTL1",
+    "location": {
+      "column": "1",
+      "line": "371",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "CACTL1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@18193@macro@CACTL2_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CACTL2_",
+    "location": {
+      "column": "9",
+      "line": "372",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "CACTL2_",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@CACTL2",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "CACTL2",
+    "location": {
+      "column": "1",
+      "line": "373",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "CACTL2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@18300@macro@CAPD_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CAPD_",
+    "location": {
+      "column": "9",
+      "line": "374",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "CAPD_",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@CAPD",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "CAPD",
+    "location": {
+      "column": "1",
+      "line": "375",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "CAPD",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@18410@macro@CAIFG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CAIFG",
+    "location": {
+      "column": "9",
+      "line": "377",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "CAIFG",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@18478@macro@CAIE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CAIE",
+    "location": {
+      "column": "9",
+      "line": "378",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "CAIE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@18548@macro@CAIES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CAIES",
+    "location": {
+      "column": "9",
+      "line": "379",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "CAIES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@18640@macro@CAON",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CAON",
+    "location": {
+      "column": "9",
+      "line": "380",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "CAON",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@18700@macro@CAREF0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CAREF0",
+    "location": {
+      "column": "9",
+      "line": "381",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "CAREF0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@18781@macro@CAREF1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CAREF1",
+    "location": {
+      "column": "9",
+      "line": "382",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "CAREF1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@18862@macro@CARSEL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CARSEL",
+    "location": {
+      "column": "9",
+      "line": "383",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "CARSEL",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@18941@macro@CAEX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CAEX",
+    "location": {
+      "column": "9",
+      "line": "384",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "CAEX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@19012@macro@CAREF_0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CAREF_0",
+    "location": {
+      "column": "9",
+      "line": "386",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\430\\inc\\msp430G2553.h"
+    },
+    "name": "CAREF_0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:msp430G2553.h@19090@macro@CAREF_1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CAREF_1",
+    

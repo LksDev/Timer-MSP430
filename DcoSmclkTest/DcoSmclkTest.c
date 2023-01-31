@@ -72,7 +72,12 @@ void main( void )
   // Bit5-4 10 Continous Mode
   // Bit1 0 Enable Interrupt
   // Bit0 x Timer Interrupt Status  
-  TACTL = 0x02E2;  
+  TACTL = 0x0000;  
+  TACTL |= MC_2;
+  TACTL |= ID_3;
+  TACTL |= TASSEL_2;
+  
+  TACTL |= TAIE;
   // Interrupt Timer A aktivieren
   //TA0CCTL0 = CCIE;
 
@@ -120,10 +125,9 @@ __interrupt void TIMER0_A0_ISR()
     break;
   }
   
-  TACTL = 0x0002;
+  TACTL |= TAIE;
   TAR= 0x0025;
-  P1OUT ^= BIT0;                 //   
-  TACTL = 0x02E2;  
+  P1OUT ^= BIT0;               
 }
 
 //------------------------------------------------------------------------------
