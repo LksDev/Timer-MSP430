@@ -36,7 +36,7 @@
 //           Funktionsdeklarationen/-prototypen -> besser auslagern z.B. LCD.h
 //------------------------------------------------------------------------------
 void TimerAVorladewertLaden(void);
-__interrupt void TimerA_ISR(void);
+
 enum RGBLED {Red=0x02, Blue = 0x20, Green = 0x08, Reset = 0x2F, Off = 0x00};
 volatile unsigned char uchIntCount;
 //------------------------------------------------------------------------------
@@ -53,7 +53,7 @@ void main( void )
   // Basis Clock auf 1MHz einstellen
   BCSCTL1 = CALBC1_1MHZ;
   DCOCTL = CALDCO_1MHZ;  
-  BCSCTL2 &= ~ BIT1 + BIT2;     // Teiler des SMCLK einstellen -> /1
+  BCSCTL2 |= DIVS_0;     // /1 SMCLK Teiler
   
   
   P1DIR |= BIT0 + BIT4;         // 1.4 als Ausgang
@@ -65,11 +65,12 @@ void main( void )
   
   
    
+  TAR= 0x0BDB;
   // slau144j-Family-Users-Guide MSP430x2xx.pdf Seite 370
   // Timer_A Control Register
-  // Bit9-8 01 binär SMCLK
-  // Bit7-6 11 /8 Teiler
-  // Bit5-4 10 Continous Mode
+  // Bit9-8 binär SMCLK
+  // Bit7-6 /4 Teiler
+  // Bit5-4 Continous Mode
   // Bit1 0 Enable Interrupt
   // Bit0 x Timer Interrupt Status  
   TACTL = 0x0000;  
@@ -100,7 +101,7 @@ void main( void )
 //------------------------------------------------------------------------------
 
 #pragma vector=TIMER0_A1_VECTOR
-__interrupt void TIMER0_A0_ISR() 
+__interrupt void TIMER0_A1_ISR() 
 {
   
   uchIntCount++;
@@ -125,9 +126,14 @@ __interrupt void TIMER0_A0_ISR()
     break;
   }
   
+  TACTL = MC_0;
+  TAR= 0x0BDB;
+  P1OUT ^= BIT0;
+  
+  TACTL |= MC_2;
+  TACTL |= ID_3;
+  TACTL |= TASSEL_2;    
   TACTL |= TAIE;
-  TAR= 0x0025;
-  P1OUT ^= BIT0;               
 }
 
 //------------------------------------------------------------------------------
