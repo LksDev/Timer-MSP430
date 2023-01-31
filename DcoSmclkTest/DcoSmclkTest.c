@@ -35,9 +35,10 @@
 //------------------------------------------------------------------------------
 //           Funktionsdeklarationen/-prototypen -> besser auslagern z.B. LCD.h
 //------------------------------------------------------------------------------
-void DebounceDelay(unsigned int i);
+void TimerAVorladewertLaden(void);
 __interrupt void TimerA_ISR(void);
-
+enum RGBLED {Red=0x02, Blue = 0x20, Green = 0x08, Reset = 0x2F, Off = 0x00};
+volatile unsigned char uchIntCount;
 //------------------------------------------------------------------------------
 //           Hauptprogramm
 //------------------------------------------------------------------------------
@@ -51,28 +52,34 @@ void main( void )
   
   // Basis Clock auf 1MHz einstellen
   BCSCTL1 = CALBC1_1MHZ;
-  DCOCTL = CALDCO_1MHZ;
-  
-  P1DIR |= BIT0 + BIT4;         // Set Pin 1.0 + 1.4 als Ausgang
-  P1OUT = 0x00;                 // Ausgang ausschalten
-  
-  P1SEL |= BIT4;                // Sonderfunktion SMCLK an P1.4 aktivieren
+  DCOCTL = CALDCO_1MHZ;  
   BCSCTL2 &= ~ BIT1 + BIT2;     // Teiler des SMCLK einstellen -> /1
-  // BCSCTL2 |= BIT1 + BIT2;
   
+  
+  P1DIR |= BIT0 + BIT4;         // 1.4 als Ausgang
+  P1OUT = 0x00;                 // Ausgang ausschalten
+  P1SEL |= BIT4;                // Sonderfunktion SMCLK an P1.4 aktivieren
+  
+  P2DIR |= BIT1 + BIT3 + BIT5;
+  P2OUT = 0x00;
+  
+  
+   
   // slau144j-Family-Users-Guide MSP430x2xx.pdf Seite 370
   // Timer_A Control Register
   // Bit9-8 01 binär SMCLK
   // Bit7-6 11 /8 Teiler
   // Bit5-4 10 Continous Mode
-  // Bit1 0 Disable Interrupt
+  // Bit1 0 Enable Interrupt
   // Bit0 x Timer Interrupt Status  
-  TA0CTL = 0x02E0;  
+  TACTL = 0x02E2;  
   // Interrupt Timer A aktivieren
   TA0CCTL0 = CCIE;
-  
+
   // Interrupt aktivieren
   __enable_interrupt();
+  // Intr
+  __low_power_mode_0();
   
 //------------------------------------------------------------------------------
 //           Endlosschleife, dass kleinste Betriebssystem der Welt!
@@ -90,14 +97,38 @@ void main( void )
 #pragma vector=TIMER0_A0_VECTOR
 __interrupt void TIMER0_A0_ISR() 
 {
-    P1OUT ^= BIT0;                 // Wiederhole immer  
+  
+  uchIntCount++;
+  
+  switch(uchIntCount){
+  case Red:
+    P2OUT = Red;
+    break;
+    
+  case Blue:
+    P2OUT = Blue;
+    break;
+    
+  case Green:
+    P2OUT = Green;
+    break;    
+  
+  case Reset:
+    P2OUT = Off;
+    
+  default:
+    break;
+  }
+  
+  TACTL = 0x0002;
+  TAR= 0x1234;
+  P1OUT ^= BIT0;                 // Wiederhole immer  
+  TACTL = 0x02E2;  
 }
 
 //------------------------------------------------------------------------------
 //        Funktionsdefinitionen -> besser auslagern z.B. LCD.c
 //------------------------------------------------------------------------------
-void DebounceDelay(unsigned int i)
-{
-  while(i>0) 
-    i--;
+void TimerAVorladewertLaden(void){
+ 
 }

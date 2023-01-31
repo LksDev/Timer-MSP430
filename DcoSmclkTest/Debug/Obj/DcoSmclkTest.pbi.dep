@@ -1,5 +1,5 @@
 DcoSmclkTest.pbi: \
-  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.5\430\inc\intrinsics.h \
-  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.5\430\inc\in430.h \
+  H:\Public\Felix-Fechenbach-Berufskolleg\FSE4A\RDN\C\Timer-MSP430\DcoSmclkTest\DcoSmclkTest.c \
   D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.5\430\inc\msp430G2553.h \
-  H:\Public\Felix-Fechenbach-Berufskolleg\FSE4A\RDN\C\Timer-MSP430\DcoSmclkTest\DcoSmclkTest.c
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.5\430\inc/in430.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.5\430\inc/intrinsics.h
