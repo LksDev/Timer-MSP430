@@ -74,7 +74,7 @@ void main( void )
   // Bit0 x Timer Interrupt Status  
   TACTL = 0x02E2;  
   // Interrupt Timer A aktivieren
-  TA0CCTL0 = CCIE;
+  //TA0CCTL0 = CCIE;
 
   // Interrupt aktivieren
   __enable_interrupt();
@@ -94,7 +94,7 @@ void main( void )
 //        Interrupt-Service-Routinen/ -Handler z.B. 
 //------------------------------------------------------------------------------
 
-#pragma vector=TIMER0_A0_VECTOR
+#pragma vector=TIMER0_A1_VECTOR
 __interrupt void TIMER0_A0_ISR() 
 {
   
@@ -121,8 +121,8 @@ __interrupt void TIMER0_A0_ISR()
   }
   
   TACTL = 0x0002;
-  TAR= 0x1234;
-  P1OUT ^= BIT0;                 // Wiederhole immer  
+  TAR= 0x0025;
+  P1OUT ^= BIT0;                 //   
   TACTL = 0x02E2;  
 }
 
