@@ -65,6 +65,11 @@ void main( void )
   
   
    
+  // Vorladewert für 0,5ms -> Berechnung:
+  // time = (1/Maintakt) * x * Teiler | nach x umstellen
+  // x = (time/Teiler) * (Maintakt/1)
+  // x = (0,5/8) * (1000000Hz/1) = 62500
+  // TAR = (2^16-1) - 62500 = 3035 (DEZIMAL) --> 0x0BDB (HEX)
   TAR= 0x0BDB;
   // slau144j-Family-Users-Guide MSP430x2xx.pdf Seite 370
   // Timer_A Control Register
@@ -76,9 +81,9 @@ void main( void )
   TACTL = 0x0000;  
   TACTL |= MC_2;
   TACTL |= ID_3;
-  TACTL |= TASSEL_2;
-  
+  TACTL |= TASSEL_2;  
   TACTL |= TAIE;
+  
   // Interrupt Timer A aktivieren
   //TA0CCTL0 = CCIE;
 
@@ -126,13 +131,27 @@ __interrupt void TIMER0_A1_ISR()
     break;
   }
   
+  // TimerA Stop-Mode
   TACTL = MC_0;
+  // Vorladewert für 0,5ms -> Berechnung:
+  // time = (1/Maintakt) * x * Teiler | nach x umstellen
+  // x = (time/Teiler) * (Maintakt/1)
+  // x = (0,5/8) * (1000000Hz/1) = 62500
+  // TAR = (2^16-1) - 62500 = 3035 (DEZIMAL) --> 0x0BDB (HEX)
   TAR= 0x0BDB;
+  
   P1OUT ^= BIT0;
   
+  // Timer_A Control Register
+  // Bit9-8 binär SMCLK
+  // Bit7-6 /4 Teiler
+  // Bit5-4 Continous Mode
+  // Bit1 0 Enable Interrupt
+  // Bit0 x Timer Interrupt Status  
+  TACTL = 0x0000;  
   TACTL |= MC_2;
   TACTL |= ID_3;
-  TACTL |= TASSEL_2;    
+  TACTL |= TASSEL_2;  
   TACTL |= TAIE;
 }
 
